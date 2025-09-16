@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/578181712464337076/a860945d4b3946f8a2c479cd39bacaa0/artifacts
+end_time: 1757941315421
+entry_point_name: ''
+experiment_id: '578181712464337076'
+lifecycle_stage: active
+run_id: a860945d4b3946f8a2c479cd39bacaa0
+run_name: magnificent-wasp-175
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757941311326
+status: 3
+tags: []
+user_id: danedebastos

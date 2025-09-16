@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/314705075500879010/09eaaff3409248d4a1dc78d8c6f59275/artifacts
+deleted_time: 1757940480332
+end_time: 1757939122120
+entry_point_name: ''
+experiment_id: '314705075500879010'
+lifecycle_stage: deleted
+run_id: 09eaaff3409248d4a1dc78d8c6f59275
+run_name: skittish-sow-446
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757939116297
+status: 3
+tags: []
+user_id: danedebastos

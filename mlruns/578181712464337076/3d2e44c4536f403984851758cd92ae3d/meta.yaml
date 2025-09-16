@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/578181712464337076/3d2e44c4536f403984851758cd92ae3d/artifacts
+end_time: 1757941298132
+entry_point_name: ''
+experiment_id: '578181712464337076'
+lifecycle_stage: active
+run_id: 3d2e44c4536f403984851758cd92ae3d
+run_name: languid-snail-280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757941293547
+status: 3
+tags: []
+user_id: danedebastos

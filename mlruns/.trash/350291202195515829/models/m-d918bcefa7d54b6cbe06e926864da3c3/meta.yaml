@@ -1,0 +1,10 @@
+artifact_location: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/350291202195515829/models/m-d918bcefa7d54b6cbe06e926864da3c3/artifacts
+creation_timestamp: 1757939860256
+experiment_id: '350291202195515829'
+last_updated_timestamp: 1757939868047
+model_id: m-d918bcefa7d54b6cbe06e926864da3c3
+model_type: null
+name: random_forest_model
+source_run_id: 1b33b9c1686f4da989b5121ef4c55f82
+status: 2
+status_message: null

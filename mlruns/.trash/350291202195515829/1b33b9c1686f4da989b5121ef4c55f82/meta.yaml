@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/350291202195515829/1b33b9c1686f4da989b5121ef4c55f82/artifacts
+deleted_time: 1757940480332
+end_time: 1757939868241
+entry_point_name: ''
+experiment_id: '350291202195515829'
+lifecycle_stage: deleted
+run_id: 1b33b9c1686f4da989b5121ef4c55f82
+run_name: ambitious-perch-533
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757939856759
+status: 3
+tags: []
+user_id: danedebastos

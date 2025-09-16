@@ -1,0 +1,7 @@
+artifact_location: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/314705075500879010
+creation_time: 1757939116050
+experiment_id: '314705075500879010'
+last_update_time: 1757940480332
+lifecycle_stage: deleted
+name: test-experiment
+tags: {}

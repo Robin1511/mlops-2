@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/764761159705970361/47e5ddf1c0724a429ead300a70ce9edd/artifacts
+deleted_time: 1757941114050
+end_time: 1757940808463
+entry_point_name: ''
+experiment_id: '764761159705970361'
+lifecycle_stage: deleted
+run_id: 47e5ddf1c0724a429ead300a70ce9edd
+run_name: rumbling-boar-240
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757940802855
+status: 3
+tags: []
+user_id: danedebastos

@@ -1,0 +1,7 @@
+artifact_location: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/350291202195515829
+creation_time: 1757939792126
+experiment_id: '350291202195515829'
+last_update_time: 1757940480332
+lifecycle_stage: deleted
+name: regression-prediction
+tags: {}

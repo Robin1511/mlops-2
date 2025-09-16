@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/187738020376974735/5fbb538a1f2349969c4154d85725aded/artifacts
+deleted_time: 1757940480332
+end_time: 1757939744735
+entry_point_name: ''
+experiment_id: '187738020376974735'
+lifecycle_stage: deleted
+run_id: 5fbb538a1f2349969c4154d85725aded
+run_name: secretive-squid-205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757939744602
+status: 4
+tags: []
+user_id: danedebastos

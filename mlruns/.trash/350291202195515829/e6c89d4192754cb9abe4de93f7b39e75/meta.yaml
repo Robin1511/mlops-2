@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/350291202195515829/e6c89d4192754cb9abe4de93f7b39e75/artifacts
+deleted_time: 1757940480332
+end_time: 1757939900551
+entry_point_name: ''
+experiment_id: '350291202195515829'
+lifecycle_stage: deleted
+run_id: e6c89d4192754cb9abe4de93f7b39e75
+run_name: peaceful-hare-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757939892289
+status: 3
+tags: []
+user_id: danedebastos

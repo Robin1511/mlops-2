@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/578181712464337076/e083576e1e474e70b21473991e024077/artifacts
+end_time: 1757941957061
+entry_point_name: ''
+experiment_id: '578181712464337076'
+lifecycle_stage: active
+run_id: e083576e1e474e70b21473991e024077
+run_name: intrigued-duck-2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757941947936
+status: 3
+tags: []
+user_id: danedebastos

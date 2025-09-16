@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/danedebastos/Desktop/machine-learning/mlops-2/mlruns/350291202195515829/c30cf9ad79324391bbb9aac3f9d0ab68/artifacts
+deleted_time: 1757940480332
+end_time: 1757939804386
+entry_point_name: ''
+experiment_id: '350291202195515829'
+lifecycle_stage: deleted
+run_id: c30cf9ad79324391bbb9aac3f9d0ab68
+run_name: marvelous-gnat-233
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757939792592
+status: 3
+tags: []
+user_id: danedebastos

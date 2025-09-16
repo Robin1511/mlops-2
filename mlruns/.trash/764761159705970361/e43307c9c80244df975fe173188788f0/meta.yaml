@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/764761159705970361/e43307c9c80244df975fe173188788f0/artifacts
+deleted_time: 1757941114050
+end_time: 1757940854231
+entry_point_name: ''
+experiment_id: '764761159705970361'
+lifecycle_stage: deleted
+run_id: e43307c9c80244df975fe173188788f0
+run_name: skillful-squid-623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757940849611
+status: 3
+tags: []
+user_id: danedebastos
