@@ -6,18 +6,15 @@ from sklearn import datasets
 API_BASE_URL = "http://localhost:8000"
 
 def test_health():
-    print("=== Test Health Endpoint ===")
     response = requests.get(f"{API_BASE_URL}/health")
     print(f"Status: {response.status_code}")
     print(f"Response: {response.json()}")
     return response.status_code == 200
 
 def test_predict():
-    print("\n=== Test Predict Endpoint ===")
     
-    # Utiliser des données Iris pour le test
     iris = datasets.load_iris()
-    test_features = iris.data[:5].tolist()  # Prendre 5 échantillons
+    test_features = iris.data[:5].tolist()
     
     payload = {
         "features": test_features
@@ -40,13 +37,10 @@ def test_predict():
         return False
 
 def test_update_model():
-    print("\n=== Test Update Model Endpoint ===")
-    
     payload = {
         "model_name": "tracking-quickstart",
         "version": "1"
     }
-    
     response = requests.post(
         f"{API_BASE_URL}/update-model",
         headers={"Content-Type": "application/json"},
@@ -58,7 +52,6 @@ def test_update_model():
     return response.status_code == 200
 
 def wait_for_api(max_attempts=30):
-    print("Attente du démarrage de l'API...")
     for i in range(max_attempts):
         try:
             response = requests.get(f"{API_BASE_URL}/health", timeout=2)
@@ -70,15 +63,11 @@ def wait_for_api(max_attempts=30):
         
         print(f"Tentative {i+1}/{max_attempts}")
         time.sleep(2)
-    
-    print("API non accessible")
     return False
 
-def run_tests():
-    print("🧪 Tests automatiques de l'API MLFlow Model Serving\n")
-    
+def run_tests():    
     if not wait_for_api():
-        print("❌ Impossible de se connecter à l'API")
+        print("Impossible de se connecter à l'API")
         return
     
     tests = [
@@ -91,16 +80,16 @@ def run_tests():
     for test_name, test_func in tests:
         try:
             success = test_func()
-            results.append((test_name, "✅ PASS" if success else "❌ FAIL"))
+            results.append((test_name, "PASS" if success else "FAIL"))
         except Exception as e:
-            results.append((test_name, f"❌ ERROR: {e}"))
+            results.append((test_name, f"ERROR: {e}"))
     
     print("\n" + "="*50)
     print("RÉSULTATS DES TESTS:")
     for test_name, result in results:
         print(f"{test_name}: {result}")
     
-    passed = sum(1 for _, result in results if "✅" in result)
+    passed = sum(1 for _, result in results if "PASS" in result)
     total = len(results)
     print(f"\nTests réussis: {passed}/{total}")
 
